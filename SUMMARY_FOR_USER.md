@@ -299,7 +299,7 @@ site/instroke/
 | Risk | Impact | Mitigation |
 |------|--------|-----------|
 | FIT parsing errors (sensor incompatibility) | Medium | Test with real FIT files from all sensors; graceful error handling |
-| D1 storage limits (10GB free tier) | Low | Monitor usage; auto-archive old workouts if needed; upgrade to paid tier ($5/month) |
+| D1 storage limits (10GB free tier) | Low | Monitor usage; implement user export/archive; solicit donations if >10GB needed (~$5/month) |
 | intervals.icu API changes | High | Monitor forum; maintain API client with version checks; coordinate with intervals.icu team |
 | Chart.js performance (100+ strokes) | Low | Use decimation plugin; lazy-load charts; debounce filter changes |
 

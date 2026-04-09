@@ -634,11 +634,12 @@ This document specifies the requirements for the in-stroke analysis companion ap
 
 #### CON-BIZ-02: Zero Hosting Cost (Goal)
 - **Constraint:** Aim for $0/month hosting cost (Cloudflare free tier).
-- **Mitigation:** If free tier exceeded, accept donations or upgrade to paid tier ($5/month).
+- **Mitigation:** If free tier exceeded, solicit voluntary community donations (GitHub Sponsors, Ko-fi, Open Collective); publish transparent monthly cost reports.
 
-#### CON-BIZ-03: No Monetization
-- **Constraint:** No paid features, subscriptions, or ads.
-- **Rationale:** Community-first; avoid conflicts of interest.
+#### CON-BIZ-03: No Monetization or Payment Processing
+- **Constraint:** No paid features, subscriptions, ads, or payment processing.
+- **Funding:** 100% free platform; optional donations only (no refunds, no recurring billing, no payment provider compliance burden on maintainers).
+- **Rationale:** Community maintainers should focus on code, not payment compliance, accounting, refunds, and tax filings.
 
 ### 6.3 Assumptions
 

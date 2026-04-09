@@ -11,6 +11,10 @@
 
 ## 1. Executive Summary
 
+### 1.0 Background
+
+Rowsandall.com (2016-2026) served the rowing community for 10 years with in-stroke analysis, training plans, and force curve visualization. Built as a Django monolith with a Go chart microservice (added 2024), it pioneered tools that let rowers analyze force curves from Empower Oarlock, Quiske, and other sensors. After a decade of solo development, the creator is shutting down Rowsandall and migrating users to intervals.icu for general training logs, while open-sourcing the D3.js charting code for community reuse.
+
 ### 1.1 Purpose
 
 Replace Rowsandall.com's in-stroke analysis capabilities before its shutdown (end of 2026) with a community-maintained, open-source platform that:
@@ -860,8 +864,8 @@ site/instroke/
 9. **Branding: "Instroke by rownative.icu" or separate name?**
    - **Recommendation:** "Instroke Analysis" with rownative.icu branding; keep subdomain for clarity
 
-10. **Monetization: Donations or premium features?**
-    - **Recommendation:** Free tier on Cloudflare; optional "Buy me a coffee" for hosting costs; no premium features (keep community-first)
+10. **Funding: How to cover hosting costs if free tier exceeded?**
+    - **Recommendation:** 100% free platform, optional donation links (GitHub Sponsors, Ko-fi), transparent cost reporting, estimated $0-20/month if needed
 
 ---
 

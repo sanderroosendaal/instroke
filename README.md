@@ -18,6 +18,14 @@ This folder contains **proposal and planning documents only** for a community-ma
 
 See [REPOSITORY_STRUCTURE.md](./REPOSITORY_STRUCTURE.md) for where code actually goes.
 
+### Background
+
+Rowsandall.com (2016-2026) pioneered in-stroke analysis for the rowing community, serving thousands of users with force curve analysis, training plans, and performance tracking. After 10 years of solo development, the creator is shutting down the platform and migrating users to intervals.icu for general training logs, while encouraging the community to build open-source companion apps for rowing-specific features that won't be built for the small rowing market.
+
+This proposal leverages 10 years of lessons learned from Rowsandall's architecture (Django monolith + Go chart microservice), simplifying to a modern, community-maintainable stack while reusing the proven D3.js charting code.
+
+### Platform Goals
+
 The platform will:
 - Integrate seamlessly with intervals.icu for data access and authentication
 - Parse FIT files per the [rowingdata FIT_EXPORT specification](https://github.com/sanderroosendaal/rowingdata/blob/develop/docs/FIT_EXPORT.md)
@@ -25,6 +33,7 @@ The platform will:
 - Enable stroke-by-stroke filtering, comparison, and visualization
 - Support multiple sensors (Empower Oarlock, Quiske, RP3, smartphone apps)
 - Run on Cloudflare's free tier (zero hosting cost)
+- Remain **100% free** with no subscription model or paywalls
 
 ---
 
@@ -185,7 +194,9 @@ See [INTEGRATION_COMPARISON.md](./INTEGRATION_COMPARISON.md) for full analysis.
 
 **Cost:** $0/month (Cloudflare free tier sufficient for 1,000 users)
 
-**Key Strategy:** Reuse D3.js charting code from Rowsandall's MIT-licensed [chart server](https://git.wereldraadsel.tech/sander/rowsandall-charts) — familiar UX, less development work, interactive features already working.
+**Key Strategy:** 
+- Reuse D3.js charting code from Rowsandall's MIT-licensed [chart server](https://git.wereldraadsel.tech/sander/rowsandall-charts) — familiar UX, less development work, interactive features already working
+- 100% free platform with optional donations (no subscriptions, no payment processing burden)
 
 ---
 

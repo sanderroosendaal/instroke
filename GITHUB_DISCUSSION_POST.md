@@ -9,7 +9,9 @@
 
 ## TL;DR
 
-**Proposal:** Add in-stroke analysis (force curves, seat curves, boat acceleration) to rownative.icu as a companion feature to intervals.icu, replacing Rowsandall.com functionality before shutdown.
+**Context:** Rowsandall.com (2016-2026) is shutting down. After 10 years serving the rowing community, the creator is migrating users to intervals.icu and open-sourcing the D3.js charting code.
+
+**Proposal:** Build a community-maintained, open-source in-stroke analysis platform as a companion to intervals.icu, leveraging lessons learned from Rowsandall's architecture.
 
 **Approach:** Extend existing `rownative/worker` and `rownative/courses` repositories.
 
@@ -27,14 +29,18 @@
 
 ## Problem Statement
 
-Rowsandall.com will shut down by end of 2026. Its in-stroke analysis tools (force curves, boat acceleration, oarlock metrics) are critical for:
+**Rowsandall.com (2016-2026)** pioneered in-stroke analysis for rowing, serving thousands of users with force curve visualization, training plans, and performance tracking. Built as a Django monolith with a Go chart microservice, it proved the value of these tools but became complex to maintain solo.
 
-- Competitive rowers analyzing technique (Empower Oarlock, Quiske sensors)
-- Indoor rowing enthusiasts (RP3 ergs with force curves)
-- Coaches reviewing athlete data
-- Rowing scientists conducting research
+**The shutdown:** The creator is migrating users to intervals.icu for general training logs (better multi-sport platform, team of developers) and encouraging the community to build open-source rowing-specific tools that won't be developed by intervals.icu for the small rowing market.
 
-**Need:** Community-maintained, open-source replacement integrated with intervals.icu (the de facto platform for rowing training data).
+**What we're losing:**
+- Force curve analysis (Empower Oarlock, Quiske, RP3 sensors)
+- Stroke-by-stroke filtering and comparison
+- In-stroke metrics (catch angle, finish angle, slip, wash)
+- Training plan integration
+- 10 years of proven UX and edge case handling
+
+**What we need:** Community-maintained replacement that learns from Rowsandall's lessons (simpler architecture, reuse proven D3.js code) and integrates with intervals.icu.
 
 ---
 
@@ -69,7 +75,9 @@ Rowsandall.com will shut down by end of 2026. Its in-stroke analysis tools (forc
 - Auth: intervals.icu OAuth — reuse existing flow
 - Cost: **$0/month** (Cloudflare free tier)
 
-**Charting Strategy:** Reuse Rowsandall's proven D3.js templates (MIT licensed) — familiar UX, 50% faster dev, advanced features already working. See [D3JS_MIGRATION_GUIDE.md](../D3JS_MIGRATION_GUIDE.md) for details.
+**Charting Strategy:** Reuse Rowsandall's proven D3.js templates (MIT licensed, being open-sourced) — familiar UX, 50% faster dev, advanced features already working. See [D3JS_MIGRATION_GUIDE.md](../D3JS_MIGRATION_GUIDE.md) for details.
+
+**Funding:** 100% free platform, no subscriptions. Optional donations (GitHub Sponsors, Ko-fi) if hosting costs exceed Cloudflare free tier (~$0-20/month). See [FUNDING_MODEL.md](../FUNDING_MODEL.md) for details.
 
 ### Core Features (MVP)
 

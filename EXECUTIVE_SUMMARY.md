@@ -243,7 +243,7 @@ All sensors supported if FIT file follows rowingdata spec.
 |------|--------|------------|-----------|
 | intervals.icu API changes | High | Low | Monitor forum; maintain API client with version checks |
 | FIT spec divergence | Medium | Medium | Coordinate with rowingdata maintainers; test with all sensors |
-| Cloudflare free tier exceeded | Medium | Low | Monitor usage; accept donations or upgrade to paid tier ($5/month) |
+| Cloudflare free tier exceeded | Medium | Low | Monitor usage; solicit community donations if needed (estimated $5-20/month); display transparent cost reports |
 | Low community engagement | High | Medium | Clear contribution guidelines; welcoming culture; regular updates |
 | Rowsandall export tool delayed | Medium | Low | Work closely with Rowsandall maintainers; provide export spec early |
 
