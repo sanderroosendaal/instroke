@@ -231,7 +231,7 @@ site/instroke/
 
 ### Immediate (April 2026)
 1. ✅ **Complete proposal** (done: 7 documents, 220+ pages)
-2. 🔄 **Share with community** (post GITHUB_DISCUSSION_POST.md to GitHub Discussions, Reddit r/Rowing)
+2. 🔄 **Share with community** (post GITHUB_DISCUSSION_POST.md to GitHub Discussions, intervals.icu forum)
 3. 🔄 **Gather feedback** (integration strategy, MVP scope, priorities)
 4. 🔄 **Validate intervals.icu API** (test FIT download endpoint, rate limits, OAuth scopes)
 
@@ -255,7 +255,7 @@ site/instroke/
 
 **Share:** [GITHUB_DISCUSSION_POST.md](./GITHUB_DISCUSSION_POST.md)
 - Post to GitHub Discussions (rownative/courses)
-- Post to Reddit r/Rowing
+- Post to intervals.icu forum
 - Share on rowing forums
 
 **Focus questions:**
@@ -418,7 +418,7 @@ This proposal is **comprehensive but not exhaustive**. It's designed to:
 
 **What I recommend you do next:**
 1. Review EXECUTIVE_SUMMARY.md (15 pages, quick read)
-2. Post GITHUB_DISCUSSION_POST.md to GitHub + Reddit
+2. Post GITHUB_DISCUSSION_POST.md to GitHub + intervals.icu forum
 3. Gather feedback for 2-3 weeks
 4. Refine proposal based on feedback
 5. Begin prototype in May 2026 (assuming community support)

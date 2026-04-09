@@ -252,7 +252,7 @@ All sensors supported if FIT file follows rowingdata spec.
 ## Next Steps
 
 ### Immediate (April 2026)
-1. **Share proposal with community:** Post to Rowsandall forum, Reddit r/Rowing, GitHub discussions
+1. **Share proposal with community:** Post to intervals.icu forum, GitHub discussions
 2. **Gather feedback:** Architecture, requirements, MVP scope
 3. **Validate intervals.icu API:** Test FIT download, OAuth flow, rate limits
 4. **Recruit contributors:** TypeScript dev, frontend dev, designer
@@ -293,7 +293,7 @@ All sensors supported if FIT file follows rowingdata spec.
 
 **Discussion:**
 - GitHub Discussions for design decisions
-- Reddit r/Rowing for community outreach
+- intervals.icu forum for community outreach
 
 ---
 

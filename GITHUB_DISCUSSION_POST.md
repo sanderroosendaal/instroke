@@ -306,7 +306,7 @@ Full proposal (200+ pages) available in this repo:
 - Comment on this discussion with your thoughts
 - Share sample FIT files (Empower, Quiske, RP3) for testing
 - Volunteer to test alpha/beta versions
-- Spread the word (Reddit r/Rowing, rowing forums)
+- Spread the word (intervals.icu forum, rowing communities)
 
 ---
 

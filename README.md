@@ -317,8 +317,8 @@ All sensors supported if FIT file follows [rowingdata FIT_EXPORT spec](https://g
 - Project lead: Sander Roosendaal ([@sanderroosendaal](https://github.com/sanderroosendaal))
 - Subject: "In-Stroke Analysis — Feedback on [ARCHITECTURE/REQUIREMENTS]"
 
-### Reddit
-- Post to [r/Rowing](https://www.reddit.com/r/Rowing/)
+### intervals.icu Forum
+- Post to [intervals.icu forum](https://forum.intervals.icu/) (rowing community active here)
 - Title: "RFC: Open-source in-stroke analysis platform (Rowsandall replacement)"
 
 ### Specific Questions
@@ -348,7 +348,7 @@ If you have expertise in one of these areas, we'd especially value your input:
 
 ### Immediate (April 2026)
 1. ✅ **Complete proposal documentation** (ARCHITECTURE, REQUIREMENTS, COMPARISON)
-2. 🔄 **Share with community** (GitHub, Reddit, forums)
+2. 🔄 **Share with community** (GitHub, intervals.icu forum)
 3. 🔄 **Gather feedback** (prioritize features, validate assumptions)
 4. 🔄 **Validate intervals.icu API** (test FIT download, rate limits)
 
@@ -388,7 +388,7 @@ If you have expertise in one of these areas, we'd especially value your input:
 
 **Discussion:**
 - Participate in GitHub Discussions
-- Share on Reddit r/Rowing, rowing forums
+- Share on intervals.icu forum, rowing communities
 
 ---
 
@@ -406,7 +406,7 @@ If you have expertise in one of these areas, we'd especially value your input:
 
 ### Community
 - **intervals.icu Forum:** [OAuth Discussion](https://forum.intervals.icu/t/intervals-icu-oauth-support/2759)
-- **Reddit r/Rowing:** [Community](https://www.reddit.com/r/Rowing/)
+- **intervals.icu Forum:** [Community](https://forum.intervals.icu/)
 - **Rowsandall Forum:** [Analytics Blog](https://analytics.rowsandall.com)
 
 ---
